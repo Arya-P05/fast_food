@@ -1,0 +1,4 @@
+tsconfig.json - the rules for typescript type safety strictnesss
+package.json - all of the projects dependencies, scripts and metadata
+app.json - also known as app.config and contains the configuration options for the project like name, slug, version, etc
+eslint.config.js - makes sure our code is clean

@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "fast_food",
-    "slug": "fast_food",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "fastfood",
-    "userInterfaceStyle": "automatic",
+    "name": "fast_food", // the name of the app as it will appear in the app store and on phones
+    "slug": "fast_food", // unique identifier for the app and used to build the url if running on the web
+    "version": "1.0.0", // the version of the app
+    "orientation": "portrait", // the default orientation of the app
+    "icon": "./assets/images/icon.png", // the icon of the app
+    "scheme": "fastfood", // the scheme of the app to enable deep linking
+    "userInterfaceStyle": "automatic", // light, dark or automatic
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true // can be used on ipad or not
     },
     "android": {
       "adaptiveIcon": {
