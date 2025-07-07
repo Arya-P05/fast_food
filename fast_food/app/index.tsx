@@ -1,4 +1,5 @@
 import { images, offers } from "@/assets";
+import CartButton from "@/components/CartButton";
 import cn from "clsx";
 import { Fragment } from "react";
 import {
@@ -77,7 +78,7 @@ export default function Index() {
               </TouchableOpacity>
             </View>
 
-            <Text>Cart</Text>
+            <CartButton />
           </View>
         )}
       ></FlatList>
