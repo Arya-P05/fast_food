@@ -7,3 +7,29 @@ setting up nativewind:
 do everything in their install docs
 then update the tailwind.config.js file to not just have the first content be "./App.tsx" and instead "./app/**/*.{js,jsx,ts,tsx}"
 then update the metro config to have input: "./app/global.css"
+
+add a images.d.ts file with:
+declare module "*.png" {
+  const value: any;
+  export default value;
+}
+
+declare module "*.jpg" {
+  const value: any;
+  export default value;
+}
+
+declare module "*.jpeg" {
+  const value: any;
+  export default value;
+}
+
+declare module "*.gif" {
+  const value: any;
+  export default value;
+}
+
+declare module "*.svg" {
+  const value: any;
+  export default value;
+}
